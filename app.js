@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 const day = date.getDate();
 
-mongoose.connect("mongodb+srv://admin-kushagra:test1234@cluster0.amxdlvo.mongodb.net/todolistDB");
+mongoose.connect("//connection string obtained from mongo db atlas");
 
 const itemsSchema = {
   name:String
